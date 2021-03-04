@@ -1,0 +1,9 @@
+/* Navbar */
+
+.navbar {
+    padding: 1em 5em 1em 5em;
+}
+
+.navbar-brand img{
+    width: 250px;
+}
