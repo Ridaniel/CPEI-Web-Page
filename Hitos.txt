@@ -1,0 +1,9 @@
+--inicio--
+10/03/2021: Gerado Villanueva
+Se creó la carpeta SVG, en donde se subió la forma1. (vease en public/SVG/forma1.svg)
+Se generó en index.css un .grid que divide un área en 2 columnas con un padding de 6em, 
+además se agregó la etiqueta logo-conócenos, dando el tamaño al logo de la sección principal.
+Se subió el gif del logo del CPEI.
+Se borró * del CSS de reset.css debido a que es una mala práctica.
+En index.php se agregó lo anterior mencionado para el resúmen de conócenos, el cual deriva al 
+framework respectivo.

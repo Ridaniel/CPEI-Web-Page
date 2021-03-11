@@ -5,3 +5,18 @@
     width: 100vw;
     object-fit: cover;
 }
+
+/* Conócenos */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.logo-conócenos {
+    justify-self: center;
+    width: 304px;
+    height: 304px;
+}

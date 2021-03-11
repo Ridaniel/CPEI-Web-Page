@@ -46,3 +46,10 @@
 
 </div>
 
+<!-- Conócenos -->
+<div class="grid">
+  <img src="public/SVG/forma1.svg" alt="forma1"> 
+  <div class="logo-conócenos">
+    <img src="public/img/Logo-1.png" alt="logo-1">
+  </div>
+</div>
