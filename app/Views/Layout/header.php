@@ -26,6 +26,7 @@
                 <a class="nav-link" href="<?php echo base_url(); ?>/nosotros">Nosotros</a>
                 <a class="nav-link" href="#">Eventos</a>
                 <a class="nav-link" href="#">CPEI Publicaciones</a>
+                <a class="btn btn-primary" href="#" role="button">Contactos</a>
             </div>
             </div>
         </div>
