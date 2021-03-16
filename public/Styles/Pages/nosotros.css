@@ -1,0 +1,14 @@
+
+/*Nosotros - Conocenos*/
+.texto{
+    position: absolute;
+    z-index: 2;
+}
+.img-nosotros{
+    position: absolute;
+    z-index: -1;
+}
+.img-fondo{
+    position: absolute;
+    z-index: 1;
+}

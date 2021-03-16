@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="public/Styles/Base/reset.css" rel="stylesheet"> 
     <link href="public/Styles/Pages/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="./public/Styles/Pages/nosotros.css">
     <link href="public/Styles/Layout/header.css" rel="stylesheet">
 
 </head>
@@ -22,7 +23,7 @@
             </a>
             <div class="navbar-nav ml-lg-auto">
                 <a class="nav-link" href="<?php echo base_url(); ?>">Inicio</a>
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>/nosotros">Nosotros</a>
                 <a class="nav-link" href="#">Eventos</a>
                 <a class="nav-link" href="#">CPEI Publicaciones</a>
             </div>
