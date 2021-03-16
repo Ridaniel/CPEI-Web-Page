@@ -7,3 +7,11 @@ Se subió el gif del logo del CPEI.
 Se borró * del CSS de reset.css debido a que es una mala práctica.
 En index.php se agregó lo anterior mencionado para el resúmen de conócenos, el cual deriva al 
 framework respectivo.
+
+--Nosotros--
+15/03/2021: Yvan Gómez
+Se creó el File Nosotros con el Archivo Inicio php
+Se creó el Archivo NosotrosController
+Se redirección a pestaña Nosotros, a traves de los Routes
+Se creó file conocenos.svg y form2.svg
+En inicio.php de Nosotros, se añadio las imagines y el Titulo.
