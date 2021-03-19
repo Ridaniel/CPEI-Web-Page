@@ -20,3 +20,111 @@
     width: 304px;
     height: 304px;
 }
+
+.subtitulo{
+  height: 70px;
+}
+.fondoGris{
+  position: absolute;
+  margin-top: 30px;
+  /*z-index: -1;*/
+} 
+
+.cpeiPub{
+  /*top: 10px;*/
+  margin-left: 10%;
+}
+
+.cuerpo{
+  height: 145%;
+  max-height: 90%;
+}
+
+.bluesky{
+  position: absolute;
+  margin-top: 5.5%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+/*formando grid*/
+.gridm {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  gap: 0.5em;
+  text-align: center;
+  margin-right: 1%;
+  
+}
+
+/*formando grid*/
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  padding-left: 50px;
+  text-align: center;
+  max-width: 96%;
+  width: 96%;
+  height: 73%;
+}
+
+/*tamaño a los div dentro de grid2*/
+.grid2 div{
+  width: 100%;
+  height: 100%;
+}
+
+/*estilos a imagenes dentro de grid2*/
+.grid2 img{
+  width: 90%;
+  height: 80%;
+  text-align: center;
+  margin-top: 11%;
+  max-width: 100%;
+}
+
+/*estilos a los videos dentro de grid2*/
+.grid2 video{
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  margin-top: -9.5%;
+  max-width: 90%;
+}
+
+/*con respecto al div de imagen*/
+.container {
+  width:100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 100%;
+}
+
+/*estilos a imagen*/
+.infografia{
+  text-align: center;
+  margin-top: 0%;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+/*Estilo a botón VER MAS*/
+/* Rectangle 238 */
+.boton-vermas{
+position: absolute;
+left: 297px;
+background: #1B768E;
+border-radius: 5px;
+}
+
+
+
+
+

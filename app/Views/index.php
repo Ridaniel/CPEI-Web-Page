@@ -53,3 +53,59 @@
     <img src="public/img/Logo-1.png" alt="logo-1">
   </div>
 </div>
+<br>
+
+<!--Parte 2 de pantalla inicio-->
+<div class="subtitulo">
+  <div class="fondoGris">
+    <img src="public/SVG/part2-gris.svg" alt="forma-subtitulo">
+  </div>
+
+  <div class="cpeiPub">
+    <img src="public/SVG/cpeiPublicaciones.svg" alt="cpei-publicaciones">
+  </div>
+
+</div>
+
+<br><br>
+<div class="cuerpo">
+  <div class="bluesky">
+    <img  src="public/SVG/bluesky.svg" alt="forma-cuerpo">
+    <!--<img class="forma-cuerpo2" src="public/SVG/bluesky.svg" alt="forma-cuerpo">-->
+  </div>
+
+  <div class="gridm">
+    <div class="grid2">
+      <div>
+        <img src="public/img/imgPrueba.png" alt="imgPrueba">
+      </div>
+
+      <div>
+        <video alt="prueba" poster="public/img/poster.png" controls>
+          <source src="public/videos/prueba.mp4" type="video/mp4"/>
+        </video>
+      </div>
+    
+      <div>
+        <video alt="prueba" poster="public/img/poster.png" controls >
+          <source src="public/videos/prueba.mp4" type="video/mp4"/>
+        </video>
+      </div>
+
+      <div>
+        <img src="public/img/imgPrueba.png" alt="imgPrueba">
+      </div>
+    </div>
+  
+    <div class="container">
+      <img class="infografia" src="public/img/Infografia.png" alt="Infografia">
+    </div>
+
+  </div>
+</div>
+<br>
+
+<!--BOTON VER MÁS-->
+<div class="boton-vermas">
+  <a class="btn btn-primary" role="button">VER MÁS</a>
+</div>
