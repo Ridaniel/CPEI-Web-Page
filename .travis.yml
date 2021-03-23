@@ -8,3 +8,7 @@ before_script:
   - php composer.phar install --dev
 script:
   - echo "skipping tests"
+deploy:
+  provider: heroku
+  api_key:
+    secure: 36fd7563-d98e-42fb-a0b2-00a3b938cfc1
