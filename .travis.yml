@@ -1,14 +1,13 @@
 language: php
 php:
-  - 7.4
-  - 5.4
-
+- 7.4
+- 5.4
 before_script:
-  - curl -s https://getcomposer.org/installer | php
-  - php composer.phar install --dev
+- curl -s https://getcomposer.org/installer | php
+- php composer.phar install --dev
 script:
-  - echo "skipping tests"
+- echo "skipping tests"
 deploy:
   provider: heroku
   api_key:
-    secure: "36fd7563-d98e-42fb-a0b2-00a3b938cfc1"
+    secure: Po805kT61q4iLvz60uGnkcOSFecIkqbA+zbJq4TVhYkYiuMn2Nthlptil2WaLc3tpKuYQ0I5bL4raH2zulXmIZjp9Q5fvq4jnZemIuthD5Raxpgdjaqge+40JlJ2KCIrlF263+XA8WBo4rVHkX11o2ptrmzvstb3No1wgF9JGeBOZ39XUMvtRAMZvVOz8/T6Pmhbq1deFkOZjCvG27UeuqCSW2YGyq6q8daN+V5xA8dBpMhTFz6+m27KU3NwiwhaE5rj09xeDPtk0nRojPhhlVpskDWdLuZwO/+gUTTzfs3QiiBNWwehsz9NoHE3v/f0Sm5MiUnpmSjkRKT4k5XubrhFWgl0u6UWUGvLxnIQFgEQOrTtCm71VOULa92MebkoTZ8YEFFnudqjY42BBkMClcdvx/DSbkdTsUXffT69dsMXkQW4LoFQrw+97gWbvGZJVDZpVNByrU+juw2WAp+EAeBUPJX57dnWAoiIioF9QFsiRUQkadyPKgfR1E3OcBzs6Qps7ptrpBexZR45IVGtCmZ99YeFkzSY+6t+AgQA/6lUPx0sewHchVZZ+siGu+mdYfbym5GEmlJVDE5cu5yEEItk4GCRRrwSpa+i/UwpqJidQzI5YTVOxX06WXPssTnTGR7eXuFFChK3ZuevzC9YOzFa+2ZB52C6rbKzCKFDeX8=
