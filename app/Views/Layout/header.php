@@ -22,7 +22,7 @@
                 <img src="public/img/logo-3.png" alt="LogoCPEI">
             </a>
             <div class="navbar-nav ml-lg-auto">
-                <a class="nav-link" href="<?php echo base_url(); ?>">Inicio</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>">InicioDev</a>
                 <a class="nav-link" href="<?php echo base_url(); ?>/nosotros">Nosotros</a>
                 <a class="nav-link" href="#">Eventos</a>
                 <a class="nav-link" href="#">CPEI Publicaciones</a>
