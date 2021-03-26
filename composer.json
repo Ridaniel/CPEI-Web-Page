@@ -37,6 +37,10 @@
 		"post-update-cmd": [
 			"CodeIgniter\\ComposerScripts::postUpdate"
 		],
+		"post-install-cmd": [
+			"php artisan clear-compiled",
+			"chmod -R 777 public/"
+		],
 		"test": "phpunit"
 	},
 	"support": {
