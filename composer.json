@@ -37,6 +37,9 @@
 		"post-update-cmd": [
 			"CodeIgniter\\ComposerScripts::postUpdate"
 		],
+		"post-install-cmd": [
+			"chmod -R 777 app/"
+		],
 		"test": "phpunit"
 	},
 	"support": {

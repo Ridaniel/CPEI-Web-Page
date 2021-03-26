@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="<?php echo base_url(); ?>">
-                <img src="public/img/logo-3.png" alt="LogoCPEI">
+                <img src="public/img/Logo-3.png" alt="LogoCPEI">
             </a>
             <div class="navbar-nav ml-lg-auto">
                 <a class="nav-link" href="<?php echo base_url(); ?>">InicioDev</a>
